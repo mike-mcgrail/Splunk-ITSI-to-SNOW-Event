@@ -32,3 +32,8 @@ This app extends the ITSI ServiceNow integration to enable an event action for S
 
 5. Validate event in ServiceNow (note message_key field could be defined in ITSI "Custom Fields" or in the ServiceNow table; default is blank)
 <img src="media/snow_event.png"/>
+
+## Optional Additional Modification:
+To change the action verbiage from "ServiceNow Event Integration" to "Create ServiceNow event" in order to align with the OOB incdident integration, replace $SPLUNK_HOME/etc/apps/itsi/appserver/static/build/pages/common.js with the provided version. 
+
+Note this will get overwritten with an ITSI upgrade and is applicable only for version 4.11.3 (build 18326).
