@@ -14,9 +14,10 @@ This app extends the ITSI ServiceNow integration to enable an event action for S
 3. Splunk and ServiceNow integrated as per [documentation](https://docs.splunk.com/Documentation/AddOns/released/ServiceNow/ConfigureServiceNowtointegratewithSplunkEnterprise)
 
 ## Notes and Considerations:
-- The integration is one-way because ServiceNow events are handled downstream and can be mapped to alerts, incidents, etc.
+- A [Splunk Idea](https://ideas.splunk.com/ideas/SFXIMMID-I-244) for this is currently marked in development, which will supersede this integration
+- This integration is one-way because ServiceNow events are handled downstream and can be mapped to alerts, incidents, etc.
 - Following the [same notes](https://docs.splunk.com/Documentation/AddOns/released/ServiceNow/Commandsandscripts#Supported_arguments_for_events) from the ServiceNow add-on, only new events can be created (existing events cannot be updated)
-- Since ServiceNow event management is managed downstream, consideration should be applied to managing closing events in ITSI (example via data values, paused flow of events, or time)
+- Since ServiceNow event management is managed downstream, consideration is needed for managing and closing events in ITSI (example via data values, paused flow of events, or time)
 
 ## Installation and Usage:
 1. Extract .tgz to $SPLUNK_HOME/etc/apps/
