@@ -29,7 +29,7 @@ This app extends the ITSI ServiceNow integration to enable an event action for S
 
 <img src="media/itsi_action.png"/>
 
-4. After triggering, validate in ITSI episode action
+4. After triggering, validate in ITSI episode activity
 
 <img src="media/itsi_event.png"/>
 
