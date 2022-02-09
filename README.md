@@ -19,7 +19,7 @@ This app extends the ITSI ServiceNow integration to enable an event action for S
 - Since ServiceNow event management is managed downstream, consideration is needed for managing and closing events in ITSI (example via data values, paused flow of events, or time)
 
 ## Installation and Usage:
-1. Extract .tgz to $SPLUNK_HOME/etc/apps/
+1. Extract provided SA-SNOW-Event.spl to $SPLUNK_HOME/etc/apps/
 
 2. Create ITSI correlation search to populate normalized fields (note SeviceNow has its own severity mapping)
 
