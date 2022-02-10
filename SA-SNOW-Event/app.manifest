@@ -1,0 +1,59 @@
+{
+  "dependencies": null,
+  "incompatibleApps": null,
+  "info": {
+    "author": [
+      {
+        "name": "Mike McGrail",
+        "email": "mmcgrail@splunk.com",
+        "company": "Splunk, Inc."
+      }
+    ],
+    "classification": {
+      "categories": [
+        "IT Operations"
+      ],
+      "developmentStatus": "Production/Stable",
+      "intendedAudience": "IT"
+    },
+    "description": "Custom add-on to enable ServiceNow Event notable action, which complements the standard ServiceNow Incident action.",
+    "id": {
+      "group": null,
+      "name": "SA-SNOW-Event",
+      "version": "1.0.0"
+    },
+    "license": {
+      "name": "Apache License, Version 2.0",
+      "text": "license.txt",
+      "uri": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    "privacyPolicy": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "releaseDate": null,
+    "releaseNotes": null,
+    "title": "Supporting Add-on for creating ServiceNow Events"
+  },
+  "inputGroups": null,
+  "platformRequirements": null,
+  "schemaVersion": "1.0.0",
+  "supportedDeployments": [
+    "_standalone",
+    "_distributed",
+    "_search_head_clustering"
+  ],
+  "targetWorkloads": [
+    "_search_heads"
+  ],
+  "dependencies": {
+    "Splunk_TA_snow": {
+      "version": ">=7.1.1"
+    },
+    "itsi": {
+      "version": ">=4.9.6"
+    }
+  },
+  "tasks": null
+}
