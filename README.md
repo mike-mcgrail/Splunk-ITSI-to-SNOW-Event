@@ -43,3 +43,7 @@ To change the action verbiage from "ServiceNow Event Integration" to "Create Ser
 <img src="media/itsi_verbiage.png"/>
 
 Note this will get overwritten with an ITSI upgrade and is applicable only for version 4.11.3 (build 18326).
+
+## Troubleshooting:
+1. Set the Splunk TA Snow logging to DEBUG
+2. Search `index=_* sourcetype=ta_snow_ticket`; the payload request will start with "Sending request to <SNOW URL>:"
